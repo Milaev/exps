@@ -1,0 +1,33 @@
+html {
+	height: 100%;
+}
+
+.page {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	margin: 0;
+}
+
+.page-header {
+	background-color: red;
+}
+
+.page-main {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	gap: 20px;
+	flex-grow: 1;
+}
+
+.news-colon {
+	background-color: blue;
+}
+
+.text-content {
+	background-color: green;
+}
+
+.page-footer {
+	background-color: purple;
+}
